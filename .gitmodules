@@ -1,3 +1,6 @@
 [submodule "cpp/Programming-_Principles_and_Practice_Using_Cpp"]
 	path = cpp/Programming-_Principles_and_Practice_Using_Cpp
 	url = https://github.com/KlausLex/Programming-_Principles_and_Practice_Using_Cpp.git
+[submodule "python/cv_lab_2022"]
+	path = python/cv_lab_2022
+	url = https://github.com/KlausLex/cv_lab_2022.git
