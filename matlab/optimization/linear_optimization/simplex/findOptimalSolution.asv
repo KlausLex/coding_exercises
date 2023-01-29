@@ -1,7 +1,7 @@
-function solution = findOptimalSolution(tableau, constraints_matrix)
+function output = findOptimalSolution(tableau, constraints_matrix)
     % left-hand side of constraits matrix
     constraints_number = size(constraints_matrix,1) - 1;
-    solution = [];
+    solution_temp = [];
     % tableau dimensions
     [m,n] = size(tableau);
     output = "";
@@ -16,7 +16,7 @@ function solution = findOptimalSolution(tableau, constraints_matrix)
             if isempty(tableau(find(tableau(1:m-1,i) == 1),n))
                 solution(i) = 0
             else
-                solution(i) = (tableau(find(tableau(1:m-1,i) == 1),n))
+                solutionp(i) = (tableau(find(tableau(1:m-1,i) == 1),n))
             end
         end
         

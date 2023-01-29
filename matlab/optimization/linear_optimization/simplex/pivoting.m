@@ -15,7 +15,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function tableau_OUT = pivot(tableau_IN, enter_VAR, depart_VAR)
+function tableau_OUT = pivoting(tableau_IN, enter_VAR, depart_VAR)
     
     % find pivot element by row, column indices
     pivot_VAR = tableau_IN(depart_VAR.row, enter_VAR.column);
