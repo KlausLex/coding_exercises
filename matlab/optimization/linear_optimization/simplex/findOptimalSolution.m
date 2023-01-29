@@ -22,6 +22,9 @@ function solution = findOptimalSolution(tableau, constraints_matrix)
         
     end
     
+    % append optimum value to solution
+    solution = [solution, tableau(end,end)];
+    
     disp("=====================================================================================================================")
     disp("F I N A L  T A B L E A U:")
     disp(" ")
